@@ -1,0 +1,29 @@
+module datapath(
+row_in  , //input row each clock event.
+CLK     , //Clock.
+SET	, //set 
+RST     , //reset
+row_out,
+state,next,
+counter,   //output row fixed each clock event.
+median_3,
+line1,
+line2,
+line3
+);
+parameter ROW=512, COL= 512, width=8;
+
+input     [ROW*width-1:0] 	row_in  ; //input row each clock event.
+input 			CLK     ; //Clock.
+input				SET	; //set 
+input				RST     ; //reset
+output reg [ROW*width*3-1:0] 	row_out;
+output reg [2:0] state,next;
+
+output reg [width:0] counter;  //output row fixed each clock event.
+output [0:ROW*width-1] median_3;
+input [0:ROW*width-1] line1;
+input [0:ROW*width-1] line2;
+input [0:ROW*width-1] line3;
+
+endmodule

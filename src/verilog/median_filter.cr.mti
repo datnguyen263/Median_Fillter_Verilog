@@ -1,0 +1,29 @@
+/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3x512.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3x512.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module med_3x512
+
+Top level modules:
+	med_3x512
+
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module med_3
+
+Top level modules:
+	med_3
+
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module med_9
+
+Top level modules:
+	med_9
+
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/FSM.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/FSM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FSM
+
+Top level modules:
+	FSM
+
+} {} {}}

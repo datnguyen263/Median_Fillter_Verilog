@@ -1,31 +1,196 @@
 m255
-K4
-z2
+K3
+z0
 13
-!s112 1.1
-!i10d 8192
-!i10e 25
-!i10f 100
 cModel Technology
-d/home/datnt
-vmedian_fillter
-!s110 1623042496
+dC:\altera\13.0sp1
+vdatapath
+Z0 !s110 1625915638
 !i10b 1
-!s100 T`0=>=ePckT5URK`CzR6>3
-I@NNg6;1LCd]W?hGCATBEV1
-VDg1SIo80bB@j0V0VzS_@n1
-d/home/datnt/DATA/Median_Fillter_Verilog/src/verilog
-w1623042471
-8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/median_fillter.v
-F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/median_fillter.v
-L0 5
-OV;L;10.5b;63
+!s100 l5MZ_Q6[mJAi9Y3HFj@]o1
+Ib7Dg>OGX<H=XH@j5If5;T0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/datnt/DATA/Median_Fillter_Verilog/src/verilog
+w1625915553
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/datapath.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/datapath.v
+L0 1
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1623042496.000000
-!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/median_fillter.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/median_fillter.v|
+Z4 !s108 1625915638.000000
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/datapath.v|
 !i113 1
-o-work work
-tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
+vFSM
+R0
+!i10b 1
+!s100 @AgSem@KE>?bQVmN1kJUl1
+I?nFQHBQJ^0PX:7iRa7SUB0
+R1
+R2
+w1625914260
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/FSM.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/FSM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/FSM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/FSM.v|
+!i113 1
+R5
+R6
+n@f@s@m
+vfunction1
+!s110 1625902400
+!i10b 1
+!s100 4DVVb?T[Yg0jSO`]faez_1
+IjE3_=PM>`h6I3W_=NcczZ1
+R1
+R2
+w1625902396
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function1.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1625902400.000000
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function1.v|
+!i113 1
+R5
+R6
+vfunction2
+!s110 1625902831
+!i10b 1
+!s100 dE_oE3YcF1BzSR7MJ_lL61
+I>BOnU_E72[k^zO28c`DdC3
+R1
+R2
+w1625902827
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function2.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1625902831.000000
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function2.v|
+!i113 1
+R5
+R6
+vfunction3
+!s110 1625908181
+!i10b 1
+!s100 gj`:;Yk;7hCUI^JLlR1M63
+Ih>ZNila;_82SXK6=enR^^0
+R1
+R2
+w1625905206
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function3.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function3.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1625908181.000000
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/function3.v|
+!i113 1
+R5
+R6
+vmed_3
+R0
+!i10b 1
+!s100 n0=Xj5TY:ATGnKNZ8G0El2
+IjoC:?9^?jO296cMKa92m11
+R1
+R2
+w1625915613
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v|
+!i113 1
+R5
+R6
+vmed_3x512
+!s110 1625924665
+!i10b 1
+!s100 :ZYCbC0EHm1IAJ@D4U?eL1
+ILSZBTZ=>zkSWk]4AAE>3K3
+R1
+R2
+w1625924393
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3x512.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3x512.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1625924665.000000
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3x512.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3x512.v|
+!i113 1
+R5
+R6
+vmed_9
+R0
+!i10b 1
+!s100 XIbnzQQ6W_Z<=36ANZ1fK1
+I7309<<YbI2X>QORd46]Ci0
+R1
+R2
+w1625915634
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v|
+!i113 1
+R5
+R6
+vmedian_filter
+!s110 1625924279
+!i10b 1
+!s100 fYF<cUBE:04h]UFF_oFe?2
+IYZNd442^;BIhec0;M[RWT2
+R1
+R2
+w1625924210
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/median_filter.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/median_filter.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1625924279.000000
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/median_filter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/median_filter.v|
+!i113 1
+R5
+R6
