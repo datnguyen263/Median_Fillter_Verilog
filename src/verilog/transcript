@@ -1,0 +1,217 @@
+# Loading project median
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# Compile of FAS.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of mux2_1.v was successful.
+# Compile of Queue7_24.v was successful.
+# Compile of Queue7_24_tb.v was successful.
+# Compile of selector.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.Queue7_24_tb
+# vsim work.Queue7_24_tb 
+# Start time: 17:43:01 on Jul 11,2021
+# Loading work.Queue7_24_tb
+# Loading work.Queue7_24
+# Loading work.Counter
+# ** Error: (vsim-3033) /home/datnt/Desktop/Project/Counter.v(18): Instantiation of 'HAS' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/Counter_front File: /home/datnt/Desktop/Project/Counter.v
+#         Searched libraries:
+#             /home/datnt/Desktop/Project/work
+# ** Error: (vsim-3033) /home/datnt/Desktop/Project/Counter.v(25): Instantiation of 'D_ff' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/Counter_front File: /home/datnt/Desktop/Project/Counter.v
+#         Searched libraries:
+#             /home/datnt/Desktop/Project/work
+# ** Error: (vsim-3033) /home/datnt/Desktop/Project/Counter.v(18): Instantiation of 'HAS' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/Counter_back File: /home/datnt/Desktop/Project/Counter.v
+#         Searched libraries:
+#             /home/datnt/Desktop/Project/work
+# ** Error: (vsim-3033) /home/datnt/Desktop/Project/Counter.v(25): Instantiation of 'D_ff' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/Counter_back File: /home/datnt/Desktop/Project/Counter.v
+#         Searched libraries:
+#             /home/datnt/Desktop/Project/work
+# Loading work.Comparator
+# Loading work.FAS
+# Loading work.selector
+# ** Error: (vsim-3033) /home/datnt/Desktop/Project/Queue7_24.v(32): Instantiation of 'SRAM' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst File: /home/datnt/Desktop/Project/Queue7_24.v
+#         Searched libraries:
+#             /home/datnt/Desktop/Project/work
+# Error loading design
+# End time: 17:43:01 on Jul 11,2021, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# Compile of D_ff.v was successful.
+# Compile of D_latch.v was successful.
+# Compile of decoder.v was successful.
+# Compile of decoder_main.v was successful.
+# Compile of FAS.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of HAS.v was successful.
+# Compile of MemoryCell.v was successful.
+# Compile of mux2_1.v was successful.
+# Compile of Queue7_24.v was successful.
+# Compile of Queue7_24_tb.v was successful.
+# Compile of selector.v was successful.
+# Compile of SRAM.v was successful.
+# Compile of tristate.v was successful.
+# Compile of word.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim work.Queue7_24_tb
+# vsim work.Queue7_24_tb 
+# Start time: 17:46:16 on Jul 11,2021
+# Loading work.Queue7_24_tb
+# Loading work.Queue7_24
+# Loading work.Counter
+# Loading work.Comparator
+# Loading work.FAS
+# Loading work.selector
+# Loading work.SRAM
+# Loading work.decoder_main
+# Loading work.decoder
+# Loading work.HAS
+# Loading work.mux2_1
+# Loading work.D_ff
+# Loading work.xor_gate
+# Loading work.FullAdder
+# Loading work.word
+# Loading work.tristate
+# Loading work.MemoryCell
+# Loading work.D_latch
+# ** Warning: Design size of 17562 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+add wave -position insertpoint sim:/Queue7_24_tb/*
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# ** Note: $stop    : /home/datnt/Desktop/Project/Queue7_24_tb.v(30)
+#    Time: 83280 ns  Iteration: 0  Instance: /Queue7_24_tb
+# Break in Module Queue7_24_tb at /home/datnt/Desktop/Project/Queue7_24_tb.v line 30
+quit -sim
+# End time: 17:47:23 on Jul 11,2021, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 9
+# Compile of line_buffer.v was successful.
+# Compile of med_3.v was successful.
+# Compile of med_9.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of line_buffer9.v failed with 1 errors.
+# Compile of line_buffer.v was successful.
+# Compile of line_buffer9.v failed with 1 errors.
+# Compile of line_buffer9.v failed with 1 errors.
+# Compile of line_buffer.v was successful.
+# Compile of line_buffer_9.v was successful.
+# Compile of line_buffer_9.v was successful.
+# Compile of reg_8bit.v was successful.
+# Compile of REG.v was successful.
+# Compile of line_buffer.v was successful.
+# Compile of line_buffer_kernel_3.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# Compile of D_ff.v was successful.
+# Compile of D_latch.v was successful.
+# Compile of decoder.v was successful.
+# Compile of decoder_main.v was successful.
+# Compile of FAS.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of HAS.v was successful.
+# Compile of MemoryCell.v was successful.
+# Compile of mux2_1.v was successful.
+# Compile of Queue7_24.v was successful.
+# Compile of Queue7_24_tb.v was successful.
+# Compile of selector.v was successful.
+# Compile of SRAM.v was successful.
+# Compile of tristate.v was successful.
+# Compile of word.v was successful.
+# Compile of med_3.v was successful.
+# Compile of med_9.v was successful.
+# Compile of test_module.v was successful.
+# Compile of line_buffer_kernel_3.v was successful.
+# Compile of REG.v was successful.
+# Compile of line_buffer.v was successful.
+# Compile of ValidInOut.v was successful.
+# Compile of Transfer.v was successful.
+# 25 compiles, 0 failed with no errors.
+# Compile of test_module.v was successful.
+# Compile of SRAM.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of Counter.v was successful.
+# Compile of D_ff.v was successful.
+# Compile of D_latch.v was successful.
+# Compile of decoder.v was successful.
+# Compile of decoder_main.v was successful.
+# Compile of FAS.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of HAS.v was successful.
+# Compile of MemoryCell.v was successful.
+# Compile of mux2_1.v was successful.
+# Compile of Queue7_24.v was successful.
+# Compile of Queue7_24_tb.v was successful.
+# Compile of selector.v was successful.
+# Compile of SRAM.v was successful.
+# Compile of tristate.v was successful.
+# Compile of word.v was successful.
+# Compile of med_3.v was successful.
+# Compile of med_9.v was successful.
+# Compile of test_module.v was successful.
+# Compile of line_buffer_kernel_3.v was successful.
+# Compile of REG.v was successful.
+# Compile of line_buffer.v was successful.
+# Compile of ValidInOut.v was successful.
+# Compile of Transfer.v was successful.
+# 25 compiles, 0 failed with no errors.
+vsim work.Queue7_24_tb
+# vsim work.Queue7_24_tb 
+# Start time: 01:35:59 on Jul 12,2021
+# Loading work.Queue7_24_tb
+# Loading work.Queue7_24
+# Loading work.Counter
+# Loading work.Comparator
+# Loading work.FAS
+# Loading work.selector
+# Loading work.SRAM
+# Loading work.decoder_main
+# Loading work.decoder
+# Loading work.HAS
+# Loading work.mux2_1
+# Loading work.D_ff
+# Loading work.xor_gate
+# Loading work.FullAdder
+# Loading work.word
+# Loading work.tristate
+# Loading work.MemoryCell
+# Loading work.D_latch
+# ** Warning: (vsim-3015) /home/datnt/Desktop/Project/Queue7_24.v(22): [PCDPC] - Port size (11) does not match connection size (19) for port 'OUT'. The port definition is at: /home/datnt/Desktop/Project/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/Counter_front File: /home/datnt/Desktop/Project/Counter.v
+# ** Warning: (vsim-3015) /home/datnt/Desktop/Project/Queue7_24.v(23): [PCDPC] - Port size (11) does not match connection size (19) for port 'OUT'. The port definition is at: /home/datnt/Desktop/Project/Counter.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/Counter_back File: /home/datnt/Desktop/Project/Counter.v
+# ** Warning: (vsim-3015) /home/datnt/Desktop/Project/Queue7_24.v(26): [PCDPC] - Port size (10) does not match connection size (18) for port 'A'. The port definition is at: /home/datnt/Desktop/Project/Comparator.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/Comparator_inst File: /home/datnt/Desktop/Project/Comparator.v
+# ** Warning: (vsim-3015) /home/datnt/Desktop/Project/Queue7_24.v(26): [PCDPC] - Port size (10) does not match connection size (18) for port 'B'. The port definition is at: /home/datnt/Desktop/Project/Comparator.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/Comparator_inst File: /home/datnt/Desktop/Project/Comparator.v
+# ** Warning: (vsim-3015) /home/datnt/Desktop/Project/Queue7_24.v(29): [PCDPC] - Port size (10) does not match connection size (18) for port 'out'. The port definition is at: /home/datnt/Desktop/Project/selector.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/selector_inst File: /home/datnt/Desktop/Project/selector.v
+# ** Warning: (vsim-3015) /home/datnt/Desktop/Project/Queue7_24.v(29): [PCDPC] - Port size (10) does not match connection size (18) for port 'I0'. The port definition is at: /home/datnt/Desktop/Project/selector.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/selector_inst File: /home/datnt/Desktop/Project/selector.v
+# ** Warning: (vsim-3015) /home/datnt/Desktop/Project/Queue7_24.v(29): [PCDPC] - Port size (10) does not match connection size (18) for port 'I1'. The port definition is at: /home/datnt/Desktop/Project/selector.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/selector_inst File: /home/datnt/Desktop/Project/selector.v
+# ** Warning: (vsim-3015) /home/datnt/Desktop/Project/Queue7_24.v(32): [PCDPC] - Port size (19) does not match connection size (18) for port 'addr'. The port definition is at: /home/datnt/Desktop/Project/SRAM.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/SRAM_inst File: /home/datnt/Desktop/Project/SRAM.v
+# ** Warning: (vsim-3015) /home/datnt/Desktop/Project/SRAM.v(19): [PCDPC] - Port size (1024) does not match connection size (262144) for port 'out_main'. The port definition is at: /home/datnt/Desktop/Project/decoder_main.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/SRAM_inst/dec_inst File: /home/datnt/Desktop/Project/decoder_main.v
+# ** Warning: (vsim-3015) /home/datnt/Desktop/Project/SRAM.v(19): [PCDPC] - Port size (10) does not match connection size (19) for port 'sel_main'. The port definition is at: /home/datnt/Desktop/Project/decoder_main.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Queue7_24_tb/Queue7_24_inst/SRAM_inst/dec_inst File: /home/datnt/Desktop/Project/decoder_main.v
+# ** Error: (vsim-3) System call mmap() failed.
+# Operation not permitted. (errno = EPERM)
+# ** Fatal: (vsim-4) ****** Memory allocation failure. *****
+# Attempting to allocate 131072 bytes
+# Please check your system for available memory and swap space.
+# End time: 01:36:35 on Jul 12,2021, Elapsed time: 0:00:36
+# Errors: 2, Warnings: 10

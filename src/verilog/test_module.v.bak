@@ -1,0 +1,29 @@
+module test_module(result,
+Valid_OUT,
+In,
+CLK,
+CLR,
+Valid_IN			
+);
+
+
+	parameter width = 8;
+	output [width-1:0] result;
+	output Valid_OUT;
+	input  [width-1:0] In;
+	input	Valid_IN, CLK, CLR;
+	
+	wire [width-1:0] R00,R01,R02,R10,R11,R12,R20,R21,R22;
+
+
+line_buffer_kernel_3 linebuff (  R00,R01,R02,R10,R11,R12,R20,R21,R22,
+Valid_OUT,
+In,Valid_IN, CLK, CLR
+);
+
+
+med_9 med(
+result,    
+R00,R01,R02,R10,R11,R12,R20,R21,R22
+);
+endmodule
