@@ -9,13 +9,13 @@ RST
 parameter ROW = 512;
 parameter COL = 512;
 parameter width = 8;
-output [0:ROW*width-1] result;
+output [0:ROW*width-1 - 16] result;
 input  [0:ROW*width-1] row_in;
 input	SET,RST,CLK;
 wire [ROW*width*3-1:0] row_out;
 
 FSM control(
-row_in  , //input row each clock event. 6144 bit
+row_in  , //input row each clock event. 
 CLK     , //Clock.
 SET	, //set 
 RST     , //reset

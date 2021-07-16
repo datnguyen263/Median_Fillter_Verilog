@@ -27,7 +27,7 @@ def median_filter(data, filter_size):
 
 
 def main():
-    img = Image.open("noisyimg.png").convert(
+    img = Image.open("noisyimg256x256.png").convert(
         "L")
     arr = numpy.array(img)
     removed_noise = median_filter(arr, 3) 

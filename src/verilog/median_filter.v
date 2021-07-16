@@ -15,7 +15,7 @@ input	SET,RST,CLK;
 wire [ROW*width*3-1:0] row_out;
 
 FSM control(
-row_in  , //input row each clock event. 6144 bit
+row_in  , //input row each clock event. 
 CLK     , //Clock.
 SET	, //set 
 RST     , //reset

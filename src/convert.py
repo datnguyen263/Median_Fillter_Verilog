@@ -3,7 +3,7 @@ import numpy as np
 from numpy.core.numeric import binary_repr
 import os
 
-image = cv2.imread('../img/noisyimg.png')
+image = cv2.imread('../img/removed.png')
 print(image)
 img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 print ('Shape Original image : ',img.shape)
@@ -14,5 +14,5 @@ abc = binary_repr_v(img,8)
 print(abc.shape)
 print(abc)
 # Save
-np.savetxt("data.txt", abc, delimiter=" ", newline = "\n", fmt="%s")
+np.savetxt("data_out.txt", abc, delimiter=" ", newline = "\n", fmt="%s")
 print("SAVE DONE")

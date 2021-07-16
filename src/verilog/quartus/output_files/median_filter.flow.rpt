@@ -1,5 +1,5 @@
 Flow report for median_filter
-Sat Jul 10 20:43:27 2021
+Sun Jul 11 00:33:04 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Sat Jul 10 20:43:25 2021           ;
+; Flow Status                     ; Successful - Sun Jul 11 00:33:02 2021           ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                   ; median_filter                                   ;
 ; Top-level Entity Name           ; median_filter                                   ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/10/2021 20:39:55 ;
+; Start date & time ; 07/11/2021 00:29:27 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; median_filter       ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 228935812277136.162592439528680        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 228935812277136.162593816707340        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -95,8 +95,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:03:19     ; 2.6                     ; 3340 MB             ; 00:09:10                           ;
-; Total                ; 00:03:19     ; --                      ; --                  ; 00:09:10                           ;
+; Analysis & Synthesis ; 00:03:24     ; 2.6                     ; 3401 MB             ; 00:09:20                           ;
+; Total                ; 00:03:24     ; --                      ; --                  ; 00:09:20                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
