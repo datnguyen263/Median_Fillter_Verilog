@@ -1,0 +1,180 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/datnt/Desktop/Project/quartus/simulation/qsim
+vline_buffer_kernel_3
+Z1 !s110 1626064827
+!i10b 1
+!s100 WoU<YfG`2V9z5IOV=BT:S0
+IIV]mW[O92OHQN_Ec[bTj03
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1626064827
+Z3 8median.vo
+Z4 Fmedian.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1626064827.000000
+Z8 !s107 median.vo|
+Z9 !s90 -work|work|median.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vline_buffer_kernel_3_vlg_vec_tst
+R1
+!i10b 1
+!s100 zmiUfTG]PKL4g2OWm`c@D2
+I]1^cGKOJAb1Zk^A0]7G0T0
+R2
+R0
+w1626064826
+Z12 8line_buff_3.vwf.vt
+Z13 Fline_buff_3.vwf.vt
+Z14 L0 29
+R6
+r1
+!s85 0
+31
+R7
+Z15 !s107 line_buff_3.vwf.vt|
+Z16 !s90 -work|work|line_buff_3.vwf.vt|
+!i113 1
+R10
+R11
+vmed_9
+Z17 !s110 1626067752
+!i10b 1
+!s100 X4:84GUnzRHSgHEE[4AG82
+I<KJ^E^J`h:h[1ao_1S92n2
+R2
+R0
+Z18 w1626067751
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z19 !s108 1626067752.000000
+R8
+R9
+!i113 1
+R10
+R11
+vmed_9_vlg_vec_tst
+R17
+!i10b 1
+!s100 ;A`<[2WezTZKM;R7NCcoi1
+IzhA0RDRL2a>5_DJGN:oOa3
+R2
+R0
+R18
+8med9.vwf.vt
+Fmed9.vwf.vt
+R14
+R6
+r1
+!s85 0
+31
+R19
+!s107 med9.vwf.vt|
+!s90 -work|work|med9.vwf.vt|
+!i113 1
+R10
+R11
+vREG
+Z20 !s110 1626017624
+!i10b 1
+!s100 MNbeX_B=ETnjN`nRFcB`e1
+IR_[[8fOOm7Voh8QSNQePA1
+R2
+R0
+Z21 w1626017623
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z22 !s108 1626017624.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@r@e@g
+vREG_vlg_vec_tst
+R20
+!i10b 1
+!s100 X=P20=REh4A0[416OFQoa1
+I>`8Jc@<^1Nc64EO9z:<XX1
+R2
+R0
+R21
+R12
+R13
+R14
+R6
+r1
+!s85 0
+31
+R22
+R15
+R16
+!i113 1
+R10
+R11
+n@r@e@g_vlg_vec_tst
+vtest_module
+Z23 !s110 1626068781
+!i10b 1
+!s100 Wnz;f?LkXg7h:Wd>=9NfY3
+IF2I2_h@ihd7F;o>@320I<3
+R2
+R0
+Z24 w1626068780
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z25 !s108 1626068781.000000
+R8
+R9
+!i113 1
+R10
+R11
+vtest_module_vlg_vec_tst
+R23
+!i10b 1
+!s100 oTWn8^8Y]fCl]imzY[D=g1
+I6C1JX_hJTLoDK]Ygo=Hf33
+R2
+R0
+R24
+8test_module_wave.vwf.vt
+Ftest_module_wave.vwf.vt
+R14
+R6
+r1
+!s85 0
+31
+R25
+!s107 test_module_wave.vwf.vt|
+!s90 -work|work|test_module_wave.vwf.vt|
+!i113 1
+R10
+R11

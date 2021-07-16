@@ -1,0 +1,42 @@
+# do median.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:21 on Jul 12,2021
+# vlog -work work median.vo 
+# -- Compiling module test_module
+# 
+# Top level modules:
+# 	test_module
+# End time: 12:46:21 on Jul 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:21 on Jul 12,2021
+# vlog -work work test_module_wave.vwf.vt 
+# -- Compiling module test_module_vlg_vec_tst
+# 
+# Top level modules:
+# 	test_module_vlg_vec_tst
+# End time: 12:46:21 on Jul 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.test_module_vlg_vec_tst 
+# Start time: 12:46:21 on Jul 12,2021
+# Loading work.test_module_vlg_vec_tst
+# Loading work.test_module
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#25
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# ** Note: $finish    : test_module_wave.vwf.vt(54)
+#    Time: 1 us  Iteration: 0  Instance: /test_module_vlg_vec_tst
+# End time: 12:46:22 on Jul 12,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 8

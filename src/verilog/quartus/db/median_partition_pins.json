@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "result[0]",
+					"strict" : false
+				},
+				{
+					"name" : "result[1]",
+					"strict" : false
+				},
+				{
+					"name" : "result[2]",
+					"strict" : false
+				},
+				{
+					"name" : "result[3]",
+					"strict" : false
+				},
+				{
+					"name" : "result[4]",
+					"strict" : false
+				},
+				{
+					"name" : "result[5]",
+					"strict" : false
+				},
+				{
+					"name" : "result[6]",
+					"strict" : false
+				},
+				{
+					"name" : "result[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Valid_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "i[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i[2]",
+					"strict" : false
+				},
+				{
+					"name" : "i[3]",
+					"strict" : false
+				},
+				{
+					"name" : "i[4]",
+					"strict" : false
+				},
+				{
+					"name" : "i[5]",
+					"strict" : false
+				},
+				{
+					"name" : "i[6]",
+					"strict" : false
+				},
+				{
+					"name" : "i[7]",
+					"strict" : false
+				},
+				{
+					"name" : "i[8]",
+					"strict" : false
+				},
+				{
+					"name" : "i[9]",
+					"strict" : false
+				},
+				{
+					"name" : "i[10]",
+					"strict" : false
+				},
+				{
+					"name" : "i[11]",
+					"strict" : false
+				},
+				{
+					"name" : "i[12]",
+					"strict" : false
+				},
+				{
+					"name" : "i[13]",
+					"strict" : false
+				},
+				{
+					"name" : "i[14]",
+					"strict" : false
+				},
+				{
+					"name" : "i[15]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "CLR",
+					"strict" : false
+				},
+				{
+					"name" : "Valid_IN",
+					"strict" : false
+				},
+				{
+					"name" : "In[0]",
+					"strict" : false
+				},
+				{
+					"name" : "In[4]",
+					"strict" : false
+				},
+				{
+					"name" : "In[7]",
+					"strict" : false
+				},
+				{
+					"name" : "In[6]",
+					"strict" : false
+				},
+				{
+					"name" : "In[5]",
+					"strict" : false
+				},
+				{
+					"name" : "In[3]",
+					"strict" : false
+				},
+				{
+					"name" : "In[2]",
+					"strict" : false
+				},
+				{
+					"name" : "In[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

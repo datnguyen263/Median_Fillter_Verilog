@@ -1,29 +1,41 @@
-module datapath(
-row_in  , //input row each clock event.
-CLK     , //Clock.
-SET	, //set 
-RST     , //reset
-row_out,
-state,next,
-counter,   //output row fixed each clock event.
-median_3,
-line1,
-line2,
-line3
+module datapath #(parameter ADDR_WIDTH = 16, parameter DATA_WIDTH = 8, parameter ROW = 256, parameter COL = 256)
+(
+input clk,
+input reset,
+input en,
+input push_pop1, push_pop2,
+input [DATA_WIDTH-1:0] DATA_IN,
+output [DATA_WIDTH-1:0] DATA_OUT,
+output Valid_OUT
 );
-parameter ROW=512, COL= 512, width=8;
+wire [DATA_WIDTH-1:0] fifo1, med;
+	FIFO_256x256(
+		.clk (clk),
+		.reset(reset),
+		.en (1),
+		.push_pop (push_pop1),
+		.DATA_IN (DATA_IN),
+		.DATA_OUT (fifo1),
+		.full_signal (),
+		.empty_signal()
+	);
 
-input     [ROW*width-1:0] 	row_in  ; //input row each clock event.
-input 			CLK     ; //Clock.
-input				SET	; //set 
-input				RST     ; //reset
-output reg [ROW*width*3-1:0] 	row_out;
-output reg [2:0] state,next;
+	test_module(   .result(med),
+			.Valid_OUT(Valid_OUT),
+			.In(fifo1),
+			.CLK(clk),
+			.CLR(reset),
+			.Valid_IN(1),.i()			
+			);
 
-output reg [width:0] counter;  //output row fixed each clock event.
-output [0:ROW*width-1] median_3;
-input [0:ROW*width-1] line1;
-input [0:ROW*width-1] line2;
-input [0:ROW*width-1] line3;
-
+	FIFO_256x256(
+		.clk (clk),
+		.reset(reset),
+		.en (1),
+		.push_pop (push_pop2),
+		.DATA_IN (med),
+		.DATA_OUT (DATA_OUT),
+		.full_signal (),
+		.empty_signal()
+	);	
 endmodule
