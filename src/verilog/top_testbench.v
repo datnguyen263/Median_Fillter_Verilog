@@ -5,7 +5,7 @@ module top_testbench();
 	
 parameter clk_prd = 40;
 parameter DATA_WIDTH = 8;
-parameter num_step = 515+256*256 + 256*256;
+parameter num_step = 517+256*256 + 256*256;
 
 reg clk;
 reg reset;
@@ -34,7 +34,8 @@ wire Valid_OUT;
 
 	end
 	always @(posedge clk) begin
-      	$fdisplay(pixel_result, "%b" , DATA_OUT);
+		if (DATA_OUT != 2'hxx)
+      		$fwrite(pixel_result, "%b\n" , DATA_OUT);
 	end
 		
 	always @(clk) #(clk_prd/2) clk <= ~clk;
@@ -46,4 +47,4 @@ wire Valid_OUT;
 	DATA_OUT,
 	Valid_OUT
 	);
-endmodule
+endmodule 
