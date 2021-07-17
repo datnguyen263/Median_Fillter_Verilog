@@ -1,113 +1,99 @@
-/home/datnt/Desktop/Project/Write_Pointer_256x256.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/Write_Pointer_256x256.v
+/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3_tb.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Write_Pointer_256x256
+-- Compiling module line_buffer_kernel_3_tb
 
 Top level modules:
-	Write_Pointer_256x256
+	line_buffer_kernel_3_tb
 
-} {} {}} /home/datnt/Desktop/Project/Transfer.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/Transfer.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Transfer
-
-Top level modules:
-	Transfer
-
-} {} {}} /home/datnt/Desktop/Project/FIFO_256x256.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/FIFO_256x256.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module FIFO_256x256
-
-Top level modules:
-	FIFO_256x256
-
-} {} {}} /home/datnt/Desktop/Project/med_9.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/med_9.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module med_9
-
-Top level modules:
-	med_9
-
-} {} {}} /home/datnt/Desktop/Project/test_module.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/test_module.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module test_module
-
-Top level modules:
-	test_module
-
-} {} {}} /home/datnt/Desktop/Project/Read_Pointer_256x256.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/Read_Pointer_256x256.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Read_Pointer_256x256
-
-Top level modules:
-	Read_Pointer_256x256
-
-} {} {}} /home/datnt/Desktop/Project/BRAM_256.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/BRAM_256.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module BRAM_256
-
-Top level modules:
-	BRAM_256
-
-} {} {}} /home/datnt/Desktop/Project/REG.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/REG.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module REG
-
-Top level modules:
-	REG
-
-} {} {}} /home/datnt/Desktop/Project/datapath.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/datapath.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module datapath
-
-Top level modules:
-	datapath
-
-} {} {}} /home/datnt/Desktop/Project/ValidInOut.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/ValidInOut.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module ValidInOut
-
-Top level modules:
-	ValidInOut
-
-} {} {}} /home/datnt/Desktop/Project/med_3.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/med_3.v
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module med_3
 
 Top level modules:
 	med_3
 
-} {} {}} /home/datnt/Desktop/Project/line_buffer.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/line_buffer.v
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module line_buffer
 
 Top level modules:
 	line_buffer
 
-} {} {}} /home/datnt/Desktop/Project/Status_Signal_256x256.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/Status_Signal_256x256.v
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top_testbench.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top_testbench.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Status_Signal_256x256
+-- Compiling module top_testbench
 
 Top level modules:
-	Status_Signal_256x256
+	top_testbench
 
-} {} {}} /home/datnt/Desktop/Project/FIFO_256x256_tb.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/FIFO_256x256_tb.v
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module FIFO_256x256_tb
+-- Compiling module top
 
 Top level modules:
-	FIFO_256x256_tb
+	top
 
-} {} {}} /home/datnt/Desktop/Project/line_buffer_kernel_3.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/line_buffer_kernel_3.v
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/fifo.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/fifo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module med_9
+
+Top level modules:
+	med_9
+
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/ValidInOut.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/ValidInOut.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ValidInOut
+
+Top level modules:
+	ValidInOut
+
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/datapath.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/control.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module line_buffer_kernel_3
 
 Top level modules:
 	line_buffer_kernel_3
 
-} {} {}} /home/datnt/Desktop/Project/ff_ram__256x256.v {1 {vlog -work work -stats=none /home/datnt/Desktop/Project/ff_ram__256x256.v
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/Transfer.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/Transfer.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module ff_ram_256x256
+-- Compiling module Transfer
 
 Top level modules:
-	ff_ram_256x256
+	Transfer
+
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/test_module.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/test_module.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_module
+
+Top level modules:
+	test_module
+
+} {} {}} /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/REG.v {1 {vlog -work work -stats=none /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/REG.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module REG
+
+Top level modules:
+	REG
 
 } {} {}}

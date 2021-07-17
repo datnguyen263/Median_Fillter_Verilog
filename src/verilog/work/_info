@@ -8,479 +8,129 @@ z2
 !i10f 100
 cModel Technology
 d/home/datnt
-vBRAM_256
-Z0 !s110 1626096991
+vcontrol
+Z0 !s110 1626525485
 !i10b 1
-!s100 =8m^e76Z3nPT2zc8e5IiV0
-I=ZKXJ2@Q4_^QLFm>3OMzV2
+!s100 bUSBoAN>f?eibm]Ko0_LI1
+IB;FE5gdzjkMD@7;W5GPMU3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 d/home/datnt/Desktop/Project
-w1626064090
-8/home/datnt/Desktop/Project/BRAM_256.v
-F/home/datnt/Desktop/Project/BRAM_256.v
+Z2 d/home/datnt/DATA/Median_Fillter_Verilog/src/verilog
+w1626521599
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/control.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/control.v
 L0 2
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1626096991.000000
-!s107 /home/datnt/Desktop/Project/BRAM_256.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/BRAM_256.v|
+Z4 !s108 1626525485.000000
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/control.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
-n@b@r@a@m_256
-vComparator
-Z7 !s110 1626054249
-!i10b 1
-!s100 65[0kTaG^EZjTOJljS^@32
-In31^zLJDf5JJ:lOd<<<262
-R1
-R2
-Z8 w1625999146
-8/home/datnt/Desktop/Project/Comparator.v
-F/home/datnt/Desktop/Project/Comparator.v
-L0 4
-R3
-r1
-!s85 0
-31
-Z9 !s108 1626054249.000000
-!s107 /home/datnt/Desktop/Project/Comparator.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/Comparator.v|
-!i113 1
-R5
-R6
-n@comparator
-vCounter
-R7
-!i10b 1
-!s100 i_anSOi=BdIg`ZORO9EQN1
-I=0`:[SKcH?nQ30D85GDT=1
-R1
-R2
-R8
-8/home/datnt/Desktop/Project/Counter.v
-F/home/datnt/Desktop/Project/Counter.v
-L0 8
-R3
-r1
-!s85 0
-31
-R9
-!s107 /home/datnt/Desktop/Project/Counter.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/Counter.v|
-!i113 1
-R5
-R6
-n@counter
-vD_ff
-R7
-!i10b 1
-!s100 1Q@3DoL8_0a]0zg@CXc2o2
-IGDPGEMlg<]oi1aS`LfJ@51
-R1
-R2
-R8
-8/home/datnt/Desktop/Project/D_ff.v
-F/home/datnt/Desktop/Project/D_ff.v
-L0 1
-R3
-r1
-!s85 0
-31
-R9
-!s107 /home/datnt/Desktop/Project/D_ff.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/D_ff.v|
-!i113 1
-R5
-R6
-n@d_ff
-vD_latch
-R7
-!i10b 1
-!s100 <R:_chzR?SejM[Qf4<R>g3
-IDaCGEEfiB:`nL]8P<kcah1
-R1
-R2
-Z10 w1625999147
-8/home/datnt/Desktop/Project/D_latch.v
-F/home/datnt/Desktop/Project/D_latch.v
-L0 14
-R3
-r1
-!s85 0
-31
-R9
-!s107 /home/datnt/Desktop/Project/D_latch.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/D_latch.v|
-!i113 1
-R5
-R6
-n@d_latch
 vdatapath
 R0
 !i10b 1
-!s100 ffXBjNERkH5U:NlHmfV8>2
-Ijl9dY?13adz97U8=<8@F13
+!s100 W6^IAfE:C;5GZBPi0PE7^0
+IoAj4S3RIGGiX3z0;3D:C13
 R1
 R2
-w1626069769
-8/home/datnt/Desktop/Project/datapath.v
-F/home/datnt/Desktop/Project/datapath.v
+w1626522536
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/datapath.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/datapath.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 /home/datnt/Desktop/Project/datapath.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/datapath.v|
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/datapath.v|
 !i113 1
 R5
 R6
-vdecoder
-R7
-!i10b 1
-!s100 lPkbKfe0`g2d>0>4GOOJW1
-IkI7_B]HQcz`MHTJiK0_^72
-R1
-R2
-R10
-8/home/datnt/Desktop/Project/decoder.v
-F/home/datnt/Desktop/Project/decoder.v
-L0 2
-R3
-r1
-!s85 0
-31
-R9
-!s107 /home/datnt/Desktop/Project/decoder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/decoder.v|
-!i113 1
-R5
-R6
-vdecoder_main
-R7
-!i10b 1
-!s100 X84]zNm]LNTLknib?`Ee61
-I4?jWNkRgAV>jZIH]NiKa<3
-R1
-R2
-R10
-8/home/datnt/Desktop/Project/decoder_main.v
-F/home/datnt/Desktop/Project/decoder_main.v
-L0 1
-R3
-r1
-!s85 0
-31
-R9
-!s107 /home/datnt/Desktop/Project/decoder_main.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/decoder_main.v|
-!i113 1
-R5
-R6
-vFAS
-R7
-!i10b 1
-!s100 I`RR1OOZc42SZmEzZXdmm1
-IS[Jo^6?zO^HWGKY1MYiOo1
-R1
-R2
-R8
-Z11 8/home/datnt/Desktop/Project/FAS.v
-Z12 F/home/datnt/Desktop/Project/FAS.v
-L0 4
-R3
-r1
-!s85 0
-31
-R9
-Z13 !s107 /home/datnt/Desktop/Project/FAS.v|
-Z14 !s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/FAS.v|
-!i113 1
-R5
-R6
-n@f@a@s
-vff_ram_16384
-Z15 !s110 1626055942
-!i10b 1
-!s100 E>6On<eo<7C94BkM:oTnH3
-IA0e:AYF2XVDBfCT9bk5T^2
-R1
-R2
-w1626055505
-8/home/datnt/Desktop/Project/ff_ram__16384.v
-F/home/datnt/Desktop/Project/ff_ram__16384.v
-L0 1
-R3
-r1
-!s85 0
-31
-Z16 !s108 1626055942.000000
-!s107 /home/datnt/Desktop/Project/ff_ram__16384.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/ff_ram__16384.v|
-!i113 1
-R5
-R6
-vff_ram_256x256
+vfifo
 R0
 !i10b 1
-!s100 J;5KMU>UflYPmTcALA3z22
-I[;jF9LZS5Z3[0ZFk:[6bE2
+!s100 G;dklQ3kfOnSa2FYMfO1z3
+I:T83b^ZJXVJh7PS06_:SF2
 R1
 R2
-w1626056232
-8/home/datnt/Desktop/Project/ff_ram__256x256.v
-F/home/datnt/Desktop/Project/ff_ram__256x256.v
+w1626518646
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/fifo.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/fifo.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 /home/datnt/Desktop/Project/ff_ram__256x256.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/ff_ram__256x256.v|
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/fifo.v|
 !i113 1
 R5
 R6
-vFIFO_16384
-R15
-!i10b 1
-!s100 CRzhhn9LM@TeKPFTLF@880
-I47^ddIIYW76Wej6OPb=]W3
-R1
-R2
-w1626055521
-8/home/datnt/Desktop/Project/FIFO_16384.v
-F/home/datnt/Desktop/Project/FIFO_16384.v
-L0 1
-R3
-r1
-!s85 0
-31
-R16
-!s107 /home/datnt/Desktop/Project/FIFO_16384.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/FIFO_16384.v|
-!i113 1
-R5
-R6
-n@f@i@f@o_16384
-vFIFO_16384_tb
-!s110 1626059739
-!i10b 1
-!s100 3L<ECL?hhOzac]X;7Zf;11
-IciBVSFRPkOBOaBJIJ5G123
-R1
-R2
-w1626059736
-Z17 8/home/datnt/Desktop/Project/FIFO_256x256_tb.v
-Z18 F/home/datnt/Desktop/Project/FIFO_256x256_tb.v
-L0 3
-R3
-r1
-!s85 0
-31
-!s108 1626059739.000000
-Z19 !s107 /home/datnt/Desktop/Project/FIFO_256x256_tb.v|
-Z20 !s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/FIFO_256x256_tb.v|
-!i113 1
-R5
-R6
-n@f@i@f@o_16384_tb
-vFIFO_256x256
-R0
-!i10b 1
-!s100 I==;3aI9VEg^OlJT:<<ND0
-IZOJc6UhZm``JoDo0lcUoM1
-R1
-R2
-w1626056335
-8/home/datnt/Desktop/Project/FIFO_256x256.v
-F/home/datnt/Desktop/Project/FIFO_256x256.v
-L0 1
-R3
-r1
-!s85 0
-31
-R4
-!s107 /home/datnt/Desktop/Project/FIFO_256x256.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/FIFO_256x256.v|
-!i113 1
-R5
-R6
-n@f@i@f@o_256x256
-vFIFO_256x256_tb
-R0
-!i10b 1
-!s100 Ce;S23IAF^ZmH0JbL`@K<2
-IoLR`e;FKY9O3jW6a[QdbJ0
-R1
-R2
-w1626063198
-R17
-R18
-L0 3
-R3
-r1
-!s85 0
-31
-R4
-R19
-R20
-!i113 1
-R5
-R6
-n@f@i@f@o_256x256_tb
-vFullAdder
-R7
-!i10b 1
-!s100 mUVVio03RKdiEN_ko>[oN0
-IYMkaJN:@W`P:_^;gW8J@23
-R1
-R2
-R8
-8/home/datnt/Desktop/Project/FullAdder.v
-F/home/datnt/Desktop/Project/FullAdder.v
-L0 1
-R3
-r1
-!s85 0
-31
-R9
-!s107 /home/datnt/Desktop/Project/FullAdder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/FullAdder.v|
-!i113 1
-R5
-R6
-n@full@adder
-vHAS
-R7
-!i10b 1
-!s100 z?]g7`bUR4WQOnXRN?N:o3
-IQ03AkiO3L^CHAB9oOgnXC1
-R1
-R2
-R10
-8/home/datnt/Desktop/Project/HAS.v
-F/home/datnt/Desktop/Project/HAS.v
-L0 4
-R3
-r1
-!s85 0
-31
-R9
-!s107 /home/datnt/Desktop/Project/HAS.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/HAS.v|
-!i113 1
-R5
-R6
-n@h@a@s
-vLine_Buffer
-!s110 1626013751
-!i10b 1
-!s100 o79g435mR^Nf>VO0A1?9U0
-I3_><aoV<<:bb^c[Ak15`@3
-R1
-R2
-w1626013737
-Z21 8/home/datnt/Desktop/Project/line_buffer.v
-Z22 F/home/datnt/Desktop/Project/line_buffer.v
-L0 1
-R3
-r1
-!s85 0
-31
-!s108 1626013751.000000
-Z23 !s107 /home/datnt/Desktop/Project/line_buffer.v|
-Z24 !s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/line_buffer.v|
-!i113 1
-R5
-R6
-n@line_@buffer
 vline_buffer
 R0
 !i10b 1
 !s100 mm^8[i^[z:@=jS8>a]_ZB0
-I?WJbAMB=k9;0:Nckin3K00
+IKe7f6`^`j<cV`:jB<2[QD1
 R1
 R2
-w1626069697
-R21
-R22
+w1626019296
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-R23
-R24
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer.v|
 !i113 1
 R5
 R6
-vLine_Buffer_Kernel_3
-!s110 1626014111
-!i10b 1
-!s100 7>0NH[94SV>4dU0OJL=jF0
-IMljBmiBn9ELUW1hWB541R1
-R1
-R2
-w1626014104
-Z25 8/home/datnt/Desktop/Project/line_buffer_kernel_3.v
-Z26 F/home/datnt/Desktop/Project/line_buffer_kernel_3.v
-L0 1
-R3
-r1
-!s85 0
-31
-!s108 1626014111.000000
-Z27 !s107 /home/datnt/Desktop/Project/line_buffer_kernel_3.v|
-Z28 !s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/line_buffer_kernel_3.v|
-!i113 1
-R5
-R6
-n@line_@buffer_@kernel_3
 vline_buffer_kernel_3
 R0
 !i10b 1
 !s100 WoaNHUmW9m]bbBc9Wa:RI0
-I3GS;dgYYe@]aRVoMAY_c41
+INjP3N;1QGciiD^=ZAlcDn3
 R1
 R2
-w1626069690
-R25
-R26
+w1626019290
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-R27
-R28
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3.v|
 !i113 1
 R5
 R6
-vline_buffer_test
-!s110 1626009178
+vline_buffer_kernel_3_tb
+R0
 !i10b 1
-!s100 VM5ljkiD[fGHKfo`dTC7P0
-If2]WZ8Bc_j4R3SnNAdn8H3
+!s100 H]`iTMWH=X3E?R_=5<Rk>3
+IfD?U^EPIDhd:F1Kkz4<dX0
 R1
 R2
-w1626009171
-8/home/datnt/Desktop/Project/line_buffer_9.v
-F/home/datnt/Desktop/Project/line_buffer_9.v
-L0 1
+w1626520183
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3_tb.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3_tb.v
+L0 4
 R3
 r1
 !s85 0
 31
-!s108 1626009178.000000
-!s107 /home/datnt/Desktop/Project/line_buffer_9.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/line_buffer_9.v|
+R4
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/line_buffer_kernel_3_tb.v|
 !i113 1
 R5
 R6
@@ -488,20 +138,20 @@ vmed_3
 R0
 !i10b 1
 !s100 S9H6Nfe<C]NPmzLa45_m:0
-IldflFdmD9V6m<zYgcGMz71
+I?PPILn8IFb0F?z4Ga4>691
 R1
 R2
-w1625992662
-8/home/datnt/Desktop/Project/med_3.v
-F/home/datnt/Desktop/Project/med_3.v
+w1625942262
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 /home/datnt/Desktop/Project/med_3.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/med_3.v|
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_3.v|
 !i113 1
 R5
 R6
@@ -509,517 +159,149 @@ vmed_9
 R0
 !i10b 1
 !s100 XIbnzQQ6W_Z<=36ANZ1fK1
-IjLIUA0RlX1`MS>6;SEP[o3
+I7309<<YbI2X>QORd46]Ci0
 R1
 R2
-w1625915634
-8/home/datnt/Desktop/Project/med_9.v
-F/home/datnt/Desktop/Project/med_9.v
+w1625865234
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 /home/datnt/Desktop/Project/med_9.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/med_9.v|
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/med_9.v|
 !i113 1
 R5
 R6
-vmedian_filter
-!s110 1626016546
-!i10b 1
-!s100 4b8KIF5mc?1]GGnR1_H]i3
-Iz`iH1Jh2k6Ye9Wbc<MJiZ2
-R1
-R2
-w1626016481
-Z29 8/home/datnt/Desktop/Project/test_module.v
-Z30 F/home/datnt/Desktop/Project/test_module.v
-L0 1
-R3
-r1
-!s85 0
-31
-!s108 1626016546.000000
-Z31 !s107 /home/datnt/Desktop/Project/test_module.v|
-Z32 !s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/test_module.v|
-!i113 1
-R5
-R6
-vMemoryCell
-R7
-!i10b 1
-!s100 F3R``>6zb]EBaXdbiB4[n0
-IhMI>Qz:ER`SbNfE@UIEZi2
-R1
-R2
-R10
-8/home/datnt/Desktop/Project/MemoryCell.v
-F/home/datnt/Desktop/Project/MemoryCell.v
-L0 1
-R3
-r1
-!s85 0
-31
-R9
-!s107 /home/datnt/Desktop/Project/MemoryCell.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/MemoryCell.v|
-!i113 1
-R5
-R6
-n@memory@cell
-vmux2_1
-R7
-!i10b 1
-!s100 0SP[1o8?M870PcN6X[?jO2
-IdF=hPMVJ;5F>5<co@T9XN0
-R1
-R2
-R10
-8/home/datnt/Desktop/Project/mux2_1.v
-F/home/datnt/Desktop/Project/mux2_1.v
-L0 5
-R3
-r1
-!s85 0
-31
-R9
-!s107 /home/datnt/Desktop/Project/mux2_1.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/mux2_1.v|
-!i113 1
-R5
-R6
-vQueue7_24
-!s110 1626054138
-!i10b 1
-!s100 bYc@cR:QG:RmCYEb0Jc^Y1
-IVCVzXknG?2cP2]L]mQJ1V2
-R1
-R2
-w1626054109
-8/home/datnt/Desktop/Project/Queue7_24.v
-F/home/datnt/Desktop/Project/Queue7_24.v
-L0 4
-R3
-r1
-!s85 0
-31
-!s108 1626054138.000000
-!s107 /home/datnt/Desktop/Project/Queue7_24.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/Queue7_24.v|
-!i113 1
-R5
-R6
-n@queue7_24
-vQueue7_24_tb
-R7
-!i10b 1
-!s100 T[_hlW80]16QN]67gD5D=1
-IJXeXKWY:zER_@nCU1]]K<0
-R1
-R2
-R10
-8/home/datnt/Desktop/Project/Queue7_24_tb.v
-F/home/datnt/Desktop/Project/Queue7_24_tb.v
-L0 2
-R3
-r1
-!s85 0
-31
-R9
-!s107 /home/datnt/Desktop/Project/Queue7_24_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/Queue7_24_tb.v|
-!i113 1
-R5
-R6
-n@queue7_24_tb
-vRead_Pointer_16384
-!s110 1626056371
-!i10b 1
-!s100 XNMGfOgZ:hRcA`<E><IV;0
-IPimegkn4D:g<8Q=^Yjo4i1
-R1
-R2
-w1626055590
-Z33 8/home/datnt/Desktop/Project/Read_Pointer_256x256.v
-Z34 F/home/datnt/Desktop/Project/Read_Pointer_256x256.v
-L0 2
-R3
-r1
-!s85 0
-31
-!s108 1626056371.000000
-Z35 !s107 /home/datnt/Desktop/Project/Read_Pointer_256x256.v|
-Z36 !s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/Read_Pointer_256x256.v|
-!i113 1
-R5
-R6
-n@read_@pointer_16384
-vRead_Pointer_256x256
-R0
-!i10b 1
-!s100 O8aihV3bIQddR_ELa_G>@1
-I6nb1mEmm=A6QHnlV[S:Ql1
-R1
-R2
-w1626056469
-R33
-R34
-L0 2
-R3
-r1
-!s85 0
-31
-R4
-R35
-R36
-!i113 1
-R5
-R6
-n@read_@pointer_256x256
 vREG
 R0
 !i10b 1
 !s100 zggZJ:Fn38`BHUi`j3FjG1
-IdgRPaUPFl8G>0AHCm>C2c3
+IzTaDL[?L<6E`2Dh<@^QFg0
 R1
 R2
-w1626013507
-8/home/datnt/Desktop/Project/REG.v
-F/home/datnt/Desktop/Project/REG.v
+w1625963106
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/REG.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/REG.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 /home/datnt/Desktop/Project/REG.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/REG.v|
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/REG.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/REG.v|
 !i113 1
 R5
 R6
 n@r@e@g
-vreg_8bit
-!s110 1626012194
-!i10b 1
-!s100 14a5ajG>]0kn2@=NojeL63
-I7^91l;o^5e8:lZd<OcE]Y1
-R1
-R2
-w1626012189
-8/home/datnt/Desktop/Project/reg_8bit.v
-F/home/datnt/Desktop/Project/reg_8bit.v
-L0 1
-R3
-r1
-!s85 0
-31
-!s108 1626012194.000000
-!s107 /home/datnt/Desktop/Project/reg_8bit.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/reg_8bit.v|
-!i113 1
-R5
-R6
-vselector
-Z37 !s110 1626054250
-!i10b 1
-!s100 mVi:TkeC5Q@2fUDSHPML02
-I@R;^hdi4Rj`4T@8MNoB3_2
-R1
-R2
-R10
-8/home/datnt/Desktop/Project/selector.v
-F/home/datnt/Desktop/Project/selector.v
-L0 1
-R3
-r1
-!s85 0
-31
-R9
-!s107 /home/datnt/Desktop/Project/selector.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/selector.v|
-!i113 1
-R5
-R6
-vSRAM
-R37
-!i10b 1
-!s100 2^0[m=O4Vk^P1]CH6gAzo0
-ID5m3bRj_=FfloZ9?H>dRL1
-R1
-R2
-w1626054203
-8/home/datnt/Desktop/Project/SRAM.v
-F/home/datnt/Desktop/Project/SRAM.v
-L0 4
-R3
-r1
-!s85 0
-31
-Z38 !s108 1626054250.000000
-!s107 /home/datnt/Desktop/Project/SRAM.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/SRAM.v|
-!i113 1
-R5
-R6
-n@s@r@a@m
-vStatus_Signal_16384
-R15
-!i10b 1
-!s100 S=chCKS^j1hCY`6cCj>hN1
-InhTMDaYL;:m^TCi3ILXS@2
-R1
-R2
-w1626055545
-8/home/datnt/Desktop/Project/Status_Signal_16384.v
-F/home/datnt/Desktop/Project/Status_Signal_16384.v
-L0 1
-R3
-r1
-!s85 0
-31
-R16
-!s107 /home/datnt/Desktop/Project/Status_Signal_16384.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/Status_Signal_16384.v|
-!i113 1
-R5
-R6
-n@status_@signal_16384
-vStatus_Signal_256x256
-R0
-!i10b 1
-!s100 2UT[07O47_A`ignc1c2AG0
-IYXF9?4fom^JO?_j0e_]0S1
-R1
-R2
-w1626056362
-8/home/datnt/Desktop/Project/Status_Signal_256x256.v
-F/home/datnt/Desktop/Project/Status_Signal_256x256.v
-L0 1
-R3
-r1
-!s85 0
-31
-R4
-!s107 /home/datnt/Desktop/Project/Status_Signal_256x256.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/Status_Signal_256x256.v|
-!i113 1
-R5
-R6
-n@status_@signal_256x256
 vtest_module
 R0
 !i10b 1
 !s100 K_SKK>EHVT7l>PA?aKYkH3
-IZh68PhO_]lgBgSVMK3ccb1
+InLZC7I:GnF[2A`A0c6X0H3
 R1
 R2
-w1626068669
-R29
-R30
+w1626018268
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/test_module.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/test_module.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-R31
-R32
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/test_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/test_module.v|
 !i113 1
 R5
 R6
-vtestbench
+vtop
 R0
 !i10b 1
-!s100 lHCVBD2ofDJ4b;9B<?UW52
-I4eb;ekW<X8P6MA@fX9F]g1
+!s100 N]_<XM[N80]:hUV:`JcN20
+ILAB6l;@5jjG9CHXz`ehRb2
 R1
 R2
-w1626096982
-Z39 8/home/datnt/Desktop/Project/testbench.v
-Z40 F/home/datnt/Desktop/Project/testbench.v
+w1626522265
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top.v|
+!i113 1
+R5
+R6
+vtop_testbench
+R0
+!i10b 1
+!s100 OZR?[HXAeY6HgIHzGc8d:2
+IEAeOkge_[X?mV41ml^m^D3
+R1
+R2
+w1626523691
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top_testbench.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top_testbench.v
 L0 4
 R3
 r1
 !s85 0
 31
 R4
-!s107 /home/datnt/Desktop/Project/testbench.v|
-Z41 !s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/testbench.v|
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/top_testbench.v|
 !i113 1
 R5
 R6
-vTop_tb
-!s110 1626069669
-!i10b 1
-!s100 Lz_i?IOQWD?GBol5i@]9e3
-Iik;b[ebbJKD2fAdOmDN152
-R1
-R2
-w1626069664
-R39
-R40
-L0 4
-R3
-r1
-!s85 0
-31
-!s108 1626069669.000000
-!s107 /home/datnt/Desktop/Project/testbench.v|
-R41
-!i113 1
-R5
-R6
-n@top_tb
 vTransfer
 R0
 !i10b 1
 !s100 U]@G7hZNEbaFV>5ai6>Mo1
-IAdXZXQ64eb`J`aXI;47_00
+IPoV:7<E]AVJQD;Ka@cad72
 R1
 R2
-w1626014456
-8/home/datnt/Desktop/Project/Transfer.v
-F/home/datnt/Desktop/Project/Transfer.v
+w1625964056
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/Transfer.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/Transfer.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 /home/datnt/Desktop/Project/Transfer.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/Transfer.v|
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/Transfer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/Transfer.v|
 !i113 1
 R5
 R6
 n@transfer
-vtristate
-R37
-!i10b 1
-!s100 1ATK;_JKPAXV>YDC7QGL`0
-Ii7:V7INiYmgKgNbW_8Za51
-R1
-R2
-R10
-8/home/datnt/Desktop/Project/tristate.v
-F/home/datnt/Desktop/Project/tristate.v
-L0 1
-R3
-r1
-!s85 0
-31
-R38
-!s107 /home/datnt/Desktop/Project/tristate.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/tristate.v|
-!i113 1
-R5
-R6
 vValidInOut
 R0
 !i10b 1
 !s100 ^7^1O78QkUA=D415<=4F>3
-IRh0AK3YXS?aaQ<TlGfMU03
+I2@zRFCI[cEAfY6izT6j][3
 R1
 R2
-w1626022632
-8/home/datnt/Desktop/Project/ValidInOut.v
-F/home/datnt/Desktop/Project/ValidInOut.v
+w1625972232
+8/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/ValidInOut.v
+F/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/ValidInOut.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 /home/datnt/Desktop/Project/ValidInOut.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/ValidInOut.v|
+!s107 /home/datnt/DATA/Median_Fillter_Verilog/src/verilog/ValidInOut.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/DATA/Median_Fillter_Verilog/src/verilog/ValidInOut.v|
 !i113 1
 R5
 R6
 n@valid@in@out
-vword
-R37
-!i10b 1
-!s100 e`cSWEba`<2VXNmBEWFG:2
-I8d`JC=Hk:lQ4o6II[[ge11
-R1
-R2
-R10
-8/home/datnt/Desktop/Project/word.v
-F/home/datnt/Desktop/Project/word.v
-L0 1
-R3
-r1
-!s85 0
-31
-R38
-!s107 /home/datnt/Desktop/Project/word.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/word.v|
-!i113 1
-R5
-R6
-vWrite_Pointer_16384
-R15
-!i10b 1
-!s100 80MG;]z3;bnVQ`He>0A2<3
-IRcec3H6E3jaP6d>F@zNei1
-R1
-R2
-w1626055583
-8/home/datnt/Desktop/Project/Write_Pointer_16384.v
-F/home/datnt/Desktop/Project/Write_Pointer_16384.v
-L0 2
-R3
-r1
-!s85 0
-31
-R16
-!s107 /home/datnt/Desktop/Project/Write_Pointer_16384.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/Write_Pointer_16384.v|
-!i113 1
-R5
-R6
-n@write_@pointer_16384
-vWrite_Pointer_256x256
-R0
-!i10b 1
-!s100 kHWa`2AaS2LnOU0a;:?MM1
-IYchK8Y0PAT<?3P<48OcY]3
-R1
-R2
-w1626056369
-8/home/datnt/Desktop/Project/Write_Pointer_256x256.v
-F/home/datnt/Desktop/Project/Write_Pointer_256x256.v
-L0 2
-R3
-r1
-!s85 0
-31
-R4
-!s107 /home/datnt/Desktop/Project/Write_Pointer_256x256.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/datnt/Desktop/Project/Write_Pointer_256x256.v|
-!i113 1
-R5
-R6
-n@write_@pointer_256x256
-vxor_gate
-R7
-!i10b 1
-!s100 @B]nN]d@d58m=`Ilea1_J1
-IXPHQIjTdgVgQ?cLGK]5Vo0
-R1
-R2
-R8
-R11
-R12
-L0 22
-R3
-r1
-!s85 0
-31
-R9
-R13
-R14
-!i113 1
-R5
-R6

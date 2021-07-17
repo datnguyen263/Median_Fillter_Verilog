@@ -1,0 +1,31 @@
+//0->514 start
+module control
+(
+	input clk, reset,
+	output reg push, pop
+);
+	reg [16:0] count_clk;
+
+	always @(posedge clk) begin
+		if(reset) begin
+			count_clk <= 0;
+			push <= 0;
+			pop <= 0;
+		end
+		else begin
+			count_clk <= count_clk + 1;
+			if(count_clk < 17'd515) begin
+				push <= 0;
+				pop <= 0;
+			end
+			else if(count_clk > 17'd514 && count_clk < 17'd65537) begin
+				push <= 1;
+				pop <= 0;				
+			end
+			else if(count_clk > 17'd65536) begin
+				push <= 0;
+				pop <= 1;				
+			end
+		end
+	end
+endmodule

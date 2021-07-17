@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 array=[]
-f = open('test_gray.txt','r')
+f = open('FIFO_Result.txt','r')
 for i in f:
     array.append(i)
 f.close()
@@ -32,7 +32,7 @@ for i in range(width):
 # Convert list to np.array
 binary_array = np.array(binary_array)
 
-cv2.imwrite('test.png',binary_array)
-cv2.imread('test.png',cv2.IMREAD_UNCHANGED)
+cv2.imwrite('result.png',binary_array)
+cv2.imread('result.png',cv2.IMREAD_UNCHANGED)
 
 print('~DONE~')
