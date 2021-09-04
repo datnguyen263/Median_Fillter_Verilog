@@ -9,7 +9,7 @@ output Valid_OUT
 );
 wire [DATA_WIDTH-1:0] med;
 
-	test_module test_module_inst(   
+	median_filter median_filter_inst(   
 			.result(med),
 			.Valid_OUT(Valid_OUT),
 			.In(DATA_IN),
